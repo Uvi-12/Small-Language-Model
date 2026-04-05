@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Data & Checkpoints
+data/
+out-NanoLLM/
+*.bin
+*.pt
+
+# Environments
+.env
+venv/

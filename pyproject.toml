@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "small-language-model"
+version = "1.0.0"
+description = "125M Parameter Small Language Model trained on custom Cosmopedia distillation"
+authors = [
+  { name="Yuvraj Pradhan" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "transformers",
+    "tiktoken",
+    "datasets",
+    "rouge-score",
+    "nltk",
+    "tqdm"
+]

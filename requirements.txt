@@ -1,0 +1,7 @@
+torch>=2.0.0
+tiktoken
+transformers
+datasets
+tqdm
+rouge-score
+nltk
